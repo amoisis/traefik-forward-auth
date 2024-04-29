@@ -37,21 +37,13 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload AMD64 release asset
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: softprops/action-gh-release@v2
       with:
-        upload_url: ${{ fromJson(steps.get_release_details.outputs.data).upload_url }}
-        asset_path: traefik-forward-auth_amd64
-        asset_name: traefik-forward-auth_amd64
-        asset_content_type: application/octet-stream
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload ARM release asset
-      uses: actions/upload-release-asset@v1
+      uses: softprops/action-gh-release@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        upload_url: ${{ fromJson(steps.get_release_details.outputs.data).upload_url }}
-        asset_path: traefik-forward-auth_arm
-        asset_name: traefik-forward-auth_arm
-        asset_content_type: application/octet-stream
+        token: ${{ secrets.GITHUB_TOKEN }}
