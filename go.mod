@@ -7,9 +7,9 @@ require (
 	github.com/coreos/go-oidc v2.2.1+incompatible
 	github.com/pquerna/cachecontrol v0.0.0-20180517163645-1555304b9b35 // indirect
 	github.com/sirupsen/logrus v1.9.3
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	github.com/thomseddon/go-flags v1.4.1-0.20190507184247-a3629c504486
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
+	golang.org/x/oauth2 v0.19.0
 	gopkg.in/square/go-jose.v2 v2.6.0
 )
 
