@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/thomseddon/go-flags"
-	"github.com/thomseddon/traefik-forward-auth/internal/provider"
+	"github.com/amoisis/go-flags"
+	"github.com/amoisis/traefik-forward-auth/internal/provider"
 )
 
 var config *Config
