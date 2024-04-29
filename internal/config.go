@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/amoisis/go-flags"
+	"github.com/thomseddon/go-flags"
 	"github.com/amoisis/traefik-forward-auth/internal/provider"
 )
 

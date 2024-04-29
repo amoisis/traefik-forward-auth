@@ -8,7 +8,7 @@ require (
 	github.com/pquerna/cachecontrol v0.0.0-20180517163645-1555304b9b35 // indirect
 	github.com/sirupsen/logrus v1.4.2
 	github.com/stretchr/testify v1.4.0
-	github.com/amoisis/go-flags v1.4.1-0.20190507184247-a3629c504486
+	github.com/thomseddon/go-flags v1.4.1-0.20190507184247-a3629c504486
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	gopkg.in/square/go-jose.v2 v2.3.1
 )
